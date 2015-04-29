@@ -19,3 +19,11 @@ With SQ,  Android Development becomes a piece of cake !
 * Select TextView That starts with txt<br>
 `sq.get("txt*");`
 <br><br>(More selectors will be added soon)
+
+## Text:
+* Set text:<br>
+`sq.get("btn1").text("Click me!!");`<br>
+* Get Value:<br>
+`String s = sq.get("txt1").txt();`<br>
+`float f = sq.get("txt1").toFloat();`<br>
+`int i = sq.get("txt1").toInt();`<br>
