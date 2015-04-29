@@ -27,3 +27,16 @@ With SQ,  Android Development becomes a piece of cake !
 `String s = sq.get("txt1").txt();`<br>
 `float f = sq.get("txt1").toFloat();`<br>
 `int i = sq.get("txt1").toInt();`<br>
+`Boolean b = sq.get("txt1").toBool();`<br>
+* Change text color:<br>
+`sq.get("txt1").color(Color.WHITE);`<br>
+`sq.get("txt1").color("#ffffff");`<br>
+
+## Image:
+* Set background color:<br>
+`sq.get("btn1").bg(Color.WHITE);`<br>
+`sq.get("btn1").bg("#ffffff");`<br>
+* Set Image:<br>
+`sq.get("imageView1").image("image");`<br>
+`sq.get("imageView1").image("http:\\");`<br>
+
