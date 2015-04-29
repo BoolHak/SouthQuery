@@ -13,5 +13,9 @@ With SQ,  Android Development becomes a piece of cake !
 <br>
 * Select all TextViews:<br>
 `sq.get("TextView");`<br>
+* Select TextView from a view<br>
+`sq.get(view,"txt1");`<br>
+`sq.get("idView","txt1");`<br>
 * Select TextView That starts with txt<br>
 `sq.get("txt*");`
+<br><br>(More selectors will be added soon)
