@@ -10,6 +10,6 @@ With SQ,  Android Development becomes a piece of cake !
 `sq.get(R.id.txt1);`
 <br>
 * Select all TextViews:<br>
-`sq.get("TEXTVIEW");`<br>
+`sq.get("TextView");`<br>
 * Select TextView That starts with txt<br>
 `sq.get("txt*");`
