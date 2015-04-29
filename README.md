@@ -40,3 +40,4 @@ With SQ,  Android Development becomes a piece of cake !
 `sq.get("imageView1").image("image");`<br>
 `sq.get("imageView1").image("http:\\");`<br>
 
+<a href="https://drive.google.com/file/d/0B1SvoJJn6KDNY2NUUC1ER3JIdTA/view?usp=sharing">DownLoad SouthQuery</a>
