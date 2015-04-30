@@ -75,3 +75,17 @@ With SQ,  Android Development becomes a piece of cake !
 `sq.get("btn1").on("click","functionName");`<br>
 `sq.get("btn1").on("longclick","functionName");`<br>
 
+## Threads:
+* Thread:<br>
+`sq.thread("after", "background");`<br>
+`sq.thread(Handler, "background");`<br>
+* Delay:<br>
+`sq.delay(2000, "after");`<br>
+
+## Navigation:
+* Go to an other activity:<br>
+`sq.to("nameActivity");`<br>
+* Splash activity:<br>
+`sq.splash(time, "nextActivity")` <br>
+
+
