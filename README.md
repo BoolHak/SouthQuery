@@ -3,7 +3,7 @@ This is a jQuery-like library for android  to help write android apps faster.
 With SQ,  Android Development becomes a piece of cake !  
 <br>
 <h1>SouthQuery Tutorial</h1>
-<a href="https://drive.google.com/file/d/0B1SvoJJn6KDNY2NUUC1ER3JIdTA/view?usp=sharing">DownLoad JAR</a>
+<a href="https://drive.google.com/file/d/0B1SvoJJn6KDNWE9XU0l1QjJZYVU/view?usp=sharing">DownLoad JAR</a>
 ## Constructor:
 `S sq = S(this);`
 ## Selector:
