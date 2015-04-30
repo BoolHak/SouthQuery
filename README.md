@@ -88,4 +88,41 @@ With SQ,  Android Development becomes a piece of cake !
 * Splash activity:<br>
 `sq.splash(time, "nextActivity")` <br>
 
+## Visibility:
+* Show:<br>
+`sq.get("txt1").show();`<br>
+* Hide:<br>
+`sq.get("txt1").hide();`<br>
+* Toggle:<br>
+`sq.get("txt1").toggle();`<br>
+
+## Toast,Alert,Progress,Notification:
+* Toast:<br>
+`sq.toast("short toast");`<br>
+`sq.Ltoast("long toast");`<br>
+* Alert:<br>
+`sq.alert("This is an alert!!");`<br>
+`sq.alert("Title","This is an alert!!");`<br>
+`sq.alert("ic_launcher","Title","This is an alert!!");`<br>
+* Progress:<br>
+`sq.progress(true);`<br>
+`sq.progress(true,"Loading");`<br>
+`sq.progress(false);`<br>
+* Notification:<br>
+`sq.notify("ic_launcher","title","subject","body");`,<br>
+
+## Other functions:
+* Bluetooth:<br>
+`sq.bluetooth(true);`<br>
+`sq.bluetooth(false);`<br>
+* Wifi:<br>
+`sq.wifi(true);`<br>
+`sq.wifi(false);`<br>
+* Call:<br>
+`sq.call("123456");`<br>
+* Sms:<br>
+`sq.sms(sq.getPhoneNumber(),"Hello!");`<br>
+* Mail:<br>
+`sq.mail("boolhak@gmail.com", "Hello", "Hello southapps");`<br>
+
 
