@@ -157,10 +157,10 @@ With SQ,  Android Development becomes a piece of cake !
 `Boolean b = sq.get("checkbox1").isChecked();`<br>
 * Check Email:<br>
 `Boolean b = sq.checkEmail("boolhak@gmail.com");`<br>
-* device Name:<br>
+* Device Name:<br>
 `String s = sq.deviceName();`<br>
 * Reload Activity:<br>
 `sq.reload();`<br>
 
-
+<H3>More functionality will be added soon</H3>
 
