@@ -68,12 +68,22 @@ With SQ,  Android Development becomes a piece of cake !
 `sq.get("btn1").click("functionName")`<br>
 (functionName is the name of the function that will be called on click should be public in the activity class)<br>
 `sq.get("btn1").click(listener)`<br>
+* Touch:<br>
+`sq.get("btn1").touch(listener)`<br>
 * On:<br>
 `sq.get("btn1").on("touchdown","functionName");`<br>
 `sq.get("btn1").on("touchup","functionName");`<br>
 `sq.get("btn1").on("move","functionName");`<br>
 `sq.get("btn1").on("click","functionName");`<br>
 `sq.get("btn1").on("longclick","functionName");`<br>
+
+## File:
+* Load File:<br>
+`String s = sq.loadFileAsString("filename");`<br>
+* Select a File:<br>
+`sq.selectFile("txt");`<br>
+* Select a Directory:<br>
+`sq.selectDir();`<br>
 
 ## Threads:
 * Thread:<br>
@@ -123,6 +133,34 @@ With SQ,  Android Development becomes a piece of cake !
 * Sms:<br>
 `sq.sms(sq.getPhoneNumber(),"Hello!");`<br>
 * Mail:<br>
-`sq.mail("boolhak@gmail.com", "Hello", "Hello southapps");`<br>
+`sq.mail("boolhak@gmail.com", "Hello", "Hello southapps !!");`<br>
+* Camera:<br>
+`sq.camImg(code);`<br>
+`sq.camVid(code);`<br>
+* Gallery:<br>
+`sq.gallery(code);`<br>
+* Mac Address:<br>
+`sq.macAddress("interfaceName");`<br>
+* IP Address:<br>
+`sq.ip(true);// IPv4`<br>
+`sq.ip(false);// IPv6`<br>
+* IMEI, UUID:<br>
+`sq.imei();`<br>
+`sq.uuid();`<br>
+* Vibrate:<br>
+`sq.vibrate(200);`<br>
+* Is a Tablet<br>
+`sq.isTablet();`<br>
+* Hide keyborad<br>
+`sq.hideKeyborad();`<br>
+* Is Checked<br>
+`Boolean b = sq.get("checkbox1").isChecked();`<br>
+* Check Email:<br>
+`Boolean b = sq.checkEmail("boolhak@gmail.com");`<br>
+* device Name:<br>
+`String s = sq.deviceName();`<br>
+* Reload Activity:<br>
+`sq.reload();`<br>
+
 
 
